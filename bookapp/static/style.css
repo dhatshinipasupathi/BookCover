@@ -1,0 +1,130 @@
+
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #171525;
+    color: #ffffff;
+    max-width: 480px;
+    min-height: 650px;
+    margin: 40px auto;
+    padding: 75px 45px;
+    background: linear-gradient(145deg, #302044, #171525, #492b45);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    border: 2px solid #c5a46d;
+    text-align: center;
+}
+
+/* BOOK TITLE */
+h1 {
+    font-size: 34px;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    color: #e8c98f;
+    margin-bottom: 25px;
+}
+
+/* SUBTITLE */
+h2 {
+    font-size: 19px;
+    font-weight: normal;
+    font-style: italic;
+    color: #f5e6ce;
+    margin-bottom: 50px;
+}
+
+/* BOOK DESCRIPTION */
+p {
+    font-size: 17px;
+    line-height: 2;
+    color: #e4dce8;
+    text-align: justify;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 520px) {
+    body {
+        margin: 15px;
+        padding: 50px 25px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+}
+
+/* ABOUT THE AUTHOR */
+.author {
+    margin-top: 65px;
+    padding-top: 25px;
+    border-top: 1px solid #c5a46d;
+}
+
+.author h3 {
+    color: #e8c98f;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.author p {
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.author h4 {
+    color: #e8c98f;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+/* PUBLISHING DETAILS */
+.publishing {
+    margin-top: 45px;
+    padding-top: 20px;
+    border-top: 1px solid #c5a46d;
+    text-align: center;
+}
+
+.publishing p {
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    color: #d8c9b7;
+}
+
+/* BARCODE */
+.barcode {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3px;
+    height: 55px;
+    margin: 20px auto 8px;
+    width: 150px;
+    background: white;
+    padding: 5px;
+}
+
+.barcode span {
+    background: #171525;
+    flex: 1;
+}
+
+.barcode span:nth-child(even) {
+    flex: 2;
+}
+
+.publishing small {
+    color: #e8c98f;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
