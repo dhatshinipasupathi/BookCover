@@ -84,7 +84,9 @@ PROGRAM:
 
 </body>
 </html>
+
 OUTPUT:
+
 <img width="607" height="836" alt="Screenshot 2026-11-25 145054" src="https://github.com/user-attachments/assets/6dcdd856-6d58-443a-bd93-b319e4baee1f" />
 
 RESULT:
